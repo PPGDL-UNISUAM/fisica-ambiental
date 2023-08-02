@@ -1,0 +1,5 @@
+III, V e II
+II, III e V 
+II, IV e III
+I, II e III
+I, II e IV

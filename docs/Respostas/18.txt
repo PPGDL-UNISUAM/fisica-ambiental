@@ -1,0 +1,4 @@
+Variação de índice de refração do ar com a altitude
+Variação de índice de refração do ar com a longitude
+Dispersão da luz ao atravessar a atmosfera
+Forma esférica da Terra e à atração gravitacional sofrida pela lua

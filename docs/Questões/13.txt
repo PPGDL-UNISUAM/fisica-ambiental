@@ -1,0 +1,7 @@
+(UFBA / Adaptada) Numa usina hidrelétrica, a energia da queda-d’água é transformada em energia cinética de rotação numa turbina, em seguida em energia elétrica, num alternador, e finalmente é distribuída através de cabos de alta-tensão. Os princípios físicos envolvidos na produção e distribuição de energia permitem afirmar: 
+01. A queda-d’água provoca uma perda de energia potencial gravitacional e um ganho de energia cinética de translação. 
+02. A energia cinética de rotação da turbina é parcialmente transformada em energia elétrica, usando-se, para essa transformação, o fenômeno de indução eletromagnética. 
+04. A resistência elétrica de um cabo de transmissão é diretamente proporcional ao seu comprimento e inversamente proporcional à sua área de secção transversal. 
+08. Os transformadores situados na usina têm, para efeito da distribuição de energia em cabos de alta tensão, menor número de espiras na bobina primária do que na bobina secundária. 
+16. Os transformadores convertem corrente alternada em corrente contínua e vice-versa. 32. A perda de energia elétrica, num cabo de transmissão, é diretamente proporcional à sua resistência e inversamente proporcional à corrente elétrica que o percorre. 
+Dê como resposta a soma dos valores associados às proposições verdadeiras:

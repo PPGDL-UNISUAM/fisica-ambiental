@@ -1,0 +1,4 @@
+A atinge uma altura final maior do que B
+B atinge uma altura final maior do que A
+A e B atingem a mesma altura final
+A e B atingem a mesma altura no instante t0 e) A e B mantêm altura constante entre os instantes t1 e t2

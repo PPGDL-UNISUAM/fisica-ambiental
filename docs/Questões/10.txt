@@ -1,0 +1,6 @@
+(UFMT / Adaptada) Um estudante deseja saber quantas árvores por minuto uma usina termelétrica precisa para abastecer com energia elétrica uma cidade do tamanho de Cuiabá. Para fazer uma estimativa desse número, considerou que:
+I.	a cidade de Cuiabá consome 10 kWh por segundo de energia elétrica
+II.	um quilo de madeira é capaz de prover energia suficiente para elevar a temperatura de 5 litros de água de 30ºC para 100ºC
+III.	uma árvore utilizada numa usina termelétrica corresponde a uma tonelada de madeira
+IV.	 o processo de conversão de energia térmica para elétrica numa usina termelétrica tem um fator de eficiência de 50%.
+Dado que o calor específico da água é 4 J/gºC, qual o número inteiro que mais se aproxima do número de árvores por minuto que o estudante encontrou em sua estimativa?

@@ -1,0 +1,1 @@
+(FM-Itajubá-MG) Um barco atravessa um rio seguindo a menor distância entre as margens, que são paralelas. Sabendo que a largura do rio é de 2,0 km, a travessia é feita em 15 min e a velocidade da correnteza é 6,0 km/h, podemos afirmar que o módulo da velocidade do barco em relação à água é:

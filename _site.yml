@@ -1,0 +1,31 @@
+---
+title: Física Ambiental
+date: '`r format(Sys.Date())`'
+author:
+  - name: Jean José Lima de Bastos, MSc
+  - email: jjlb090990@gmail.com
+repository_url: https://github.com/PPGDL-UNISUAM/fisica-ambiental
+creative_commons: CC BY-NC-SA
+output_dir: docs
+navbar:
+  left:
+    - text: "Física Ambiental"
+      icon: "fa-home"
+      href: [index.html]
+    - text: "Questões"
+      icon: "fa-clipboard-question"
+      href: [questoes.html]
+    - text: "Videos"
+      icon: "fa-youtube"
+      href: [videos.html]
+    - text: "Simuladores"
+      icon: "fa-link"
+      href: [simuladores.html]
+  right:
+    - text: ""
+      icon: "fa-envelope"
+      href: [mailto:jjlb090990@gmail.com]
+    - text: ""
+      icon: "fa-github"
+      href: [https://github.com/PPGDL-UNISUAM/fisica-ambiental]
+---

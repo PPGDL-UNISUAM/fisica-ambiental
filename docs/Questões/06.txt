@@ -1,0 +1,5 @@
+(FEI-SP) Considerando as faixas audíveis para os animais mencionados a seguir, podemos afirmar que: 
+gato – 30 Hz até 45 kHz
+cão – 20 Hz até 30 kHz
+homem – 20 Hz até 20 kHz
+baleia – 40 Hz até 80 kHz

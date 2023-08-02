@@ -1,0 +1,4 @@
+O gelo irá transferir frio para a água
+A água irá transferir calor para o gelo
+O gelo irá transferir frio para o meio ambiente
+A água irá transferir calor para o meio ambiente
