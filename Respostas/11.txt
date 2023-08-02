@@ -1,0 +1,5 @@
+Em todos os processos
+Somente nos processos que envolvem transformações de energia sem dissipação de calor
+Somente nos processos que envolvem transformações de energia mecânica
+Somente nos processos que não envolvem energia química
+Somente nos processos que não envolvem nem energia química nem energia térmica

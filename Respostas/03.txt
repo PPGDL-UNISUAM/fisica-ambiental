@@ -1,0 +1,5 @@
+Submerge, atingindo o fundo do recipiente
+Flutua, porém com uma porção maior submersa
+Flutua com a mesma porção submersa
+Flutua, porém com uma porção menor submersa
+Submerge completamente, mas sem atingir o fundo do recipiente

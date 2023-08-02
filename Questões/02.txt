@@ -1,0 +1,1 @@
+(ENEM) O esquema abaixo mostra, em termos de potência (energia/tempo), aproximadamente, o fluxo de energia, a partir de uma certa quantidade de combustível vinda do tanque de gasolina, em um carro viajando com velocidade constante. O esquema mostra que, na queima da gasolina, no motor de combustão, uma parte considerável de sua energia é dissipada. Essa perda é da ordem de:

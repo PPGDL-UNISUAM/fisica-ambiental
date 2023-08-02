@@ -1,0 +1,4 @@
+Para que a Lua descreva o seu movimento orbital ao redor da Terra, é necessário que a resultante das forças que atuam sobre ela não seja nula
+Um satélite em órbita circular ao redor da Terra move-se perpendicularmente ao campo gravitacional terrestre
+A força gravitacional sobre um satélite sempre realiza trabalho, independentemente de sua órbita ser circular ou elíptica
+Um corpo, quando solto próximo à superfície terrestre, cai em direção a ela pelo mesmo motivo que a Lua descreve sua órbita em torno da Terra

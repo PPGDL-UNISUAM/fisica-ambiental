@@ -1,0 +1,2 @@
+(VUNESP-SP / Adaptada) A fotossíntese é uma reação bioquímica que ocorre nas plantas, para a qual é necessária a energia da luz do Sol, cujo espectro de frequência é dado a seguir.
+Sabendo que a fotossíntese ocorre predominantemente nas folhas verdes, de qual ou quais faixas de frequências do espectro da luz solar as plantas absorvem menos energia nesse processo?
