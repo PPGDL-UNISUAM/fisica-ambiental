@@ -22,6 +22,8 @@ navbar:
       icon: "fa-link"
       href: [simuladores.html]
   right:
+    - text: "Lattes"
+      href: [http://lattes.cnpq.br/2361373523394201]
     - text: ""
       icon: "fa-envelope"
       href: [mailto:jjlb090990@gmail.com]
