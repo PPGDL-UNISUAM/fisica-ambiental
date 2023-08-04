@@ -1,6 +1,5 @@
 ---
 title: Questões
-output: rmdformats::material
 ---
 
 <!--install and/or load all R packages-->
@@ -26,23 +25,22 @@ has.questoes <-
 ```
 
 ```{r simuladores, eval = has.questoes}
-questoes <- readxl::read_excel("simuladores.xlsx",
-               sheet = 1,
-               col_types = c("text"))
+questoes <- list.files(file.path(getwd(), "Questões"), pattern = ".txt")
+imagens <- list.files(file.path(getwd(), "Imagens"), pattern = ".png")
+respostas <- list.files(file.path(getwd(), "Respostas"), pattern = ".txt")
+corretas <- list.files(file.path(getwd(), "Corretas"), pattern = ".txt")
 
-for (i in 1:dim(questoes)[1]) {
+for (i in 1:length(questoes)) {
   cat('\n\n<!-- -->\n\n')
-  cat(paste0('# **', questoes[i,1], '**'))
+  cat(paste0('# **', as.character(i), '**'))
   cat('\n\n<!-- -->\n\n')
-  
-  cat(
-    paste(
-      '<iframe src=\"',
-      questoes[i,2],
-      '\" style=\"width:100%; height:400px; border:2px solid black;"></iframe>',
-      sep = ""
-    )
-  )
+  cat(paste0("**", readLines(file.path(getwd(), "Questões", questoes[i])), "**"), sep = "")
+  cat('\n\n<!-- -->\n\n')
+  opcoes <- readLines(file.path(getwd(), "Respostas", respostas[i]))
+  opcoes <- paste0(1:length(opcoes), ") ", opcoes)
+  opcoes <- unlist(strsplit(opcoes, split = "\n"))
+  cat(paste0(opcoes, "\n"))
+  cat('\n\n<!-- -->\n\n')
 }
 ```
 

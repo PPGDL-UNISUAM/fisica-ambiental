@@ -28,4 +28,22 @@ navbar:
     - text: ""
       icon: "fa-github"
       href: [https://github.com/PPGDL-UNISUAM/fisica-ambiental]
+output:
+  html_document:
+    theme: journal
+    highlight: textmate
+    css:
+      - style.css
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    edit: null
+    sharing:
+      facebook: yes
+      twitter: yes
+      google: yes
+      all:
+        - facebook
+        - twitter
+        - google
 ---

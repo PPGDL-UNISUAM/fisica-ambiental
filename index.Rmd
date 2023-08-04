@@ -1,6 +1,5 @@
 ---
 title: Física Ambiental
-output: rmdformats::material
 ---
 
 <!--install and/or load all R packages-->
@@ -18,9 +17,15 @@ knitr::opts_chunk$set(
 )
 ```
 
+<br>
+
 # Olá!
 
+<br>
+
 ## Sejam bem-vindos ao nosso site **Física Ambiental**
+
+<br>
 
 Sou Jean José Lima de Bastos, professor da educação básica ao ensino superior na cidade de Anápolis – GO. Possuo Graduação em Física e Mestrado em Desenvolvimento Local pelo Centro Universitário Augusto Motta (UNISUAM).
 

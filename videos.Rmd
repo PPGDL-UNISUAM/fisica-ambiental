@@ -1,6 +1,5 @@
 ---
 title: Videos
-output: rmdformats::material
 ---
 
 <!--install and/or load all R packages-->
@@ -43,6 +42,7 @@ for (i in 1:dim(videos)[1]) {
       sep = ""
     )
   )
+  cat('<br>')
 }
 ```
 
