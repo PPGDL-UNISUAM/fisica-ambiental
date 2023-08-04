@@ -2,6 +2,8 @@
 title: Questões
 ---
 
+<br>
+
 <!--install and/or load all R packages-->
 ```{r setup, include = FALSE, echo = FALSE, warning = FALSE, message = FALSE, fig.align = 'center', out.width = "100%", results = "hide"}
 knitr::opts_chunk$set(
@@ -26,9 +28,15 @@ has.questoes <-
 
 ```{r simuladores, eval = has.questoes}
 questoes <- list.files(file.path(getwd(), "Questões"), pattern = ".txt")
-imagens <- list.files(file.path(getwd(), "Imagens"), pattern = ".png")
 respostas <- list.files(file.path(getwd(), "Respostas"), pattern = ".txt")
 corretas <- list.files(file.path(getwd(), "Corretas"), pattern = ".txt")
+imagens <- list.files(file.path(getwd(), "Imagens"), pattern = ".png")
+
+# reorder list of file names when numbers are in string format
+questoes <- chillR::ordered_climate_list(questoes)
+respostas <- chillR::ordered_climate_list(respostas)
+corretas <- chillR::ordered_climate_list(corretas)
+imagens <- chillR::ordered_climate_list(imagens)
 
 for (i in 1:length(questoes)) {
   cat('\n\n<!-- -->\n\n')
@@ -36,11 +44,26 @@ for (i in 1:length(questoes)) {
   cat('\n\n<!-- -->\n\n')
   cat(paste0("**", readLines(file.path(getwd(), "Questões", questoes[i])), "**"), sep = "")
   cat('\n\n<!-- -->\n\n')
+  if(!is.na(match(paste0(as.character(i), ".png"), imagens))){
+    index <- match(paste0(as.character(i), ".png"), imagens)
+    cat('<p align="center">')
+    cat(paste0('![](', file.path(getwd(), "Imagens", imagens[index]), ')'))
+    cat('</p>')
+  }
+  cat('\n\n<!-- -->\n\n')
   opcoes <- readLines(file.path(getwd(), "Respostas", respostas[i]))
-  opcoes <- paste0(1:length(opcoes), ") ", opcoes)
   opcoes <- unlist(strsplit(opcoes, split = "\n"))
+  correta <- readLines(file.path(getwd(), "Corretas", corretas[i]))
+  correta <- unlist(strsplit(correta, split = "\n"))
+  index <- match(correta, opcoes)
+  opcoes[index] <- paste0("**", opcoes[index], "**")
+  opcoes <- paste0(1:length(opcoes), ") ", opcoes)
   cat(paste0(opcoes, "\n"))
   cat('\n\n<!-- -->\n\n')
+  # print end of tab rows
+  cat('<br><a style="float:right" href="#top"><b>Início</b>⬆️</a><br>')
+  cat('<br>')
+  cat('<br>')
 }
 ```
 
